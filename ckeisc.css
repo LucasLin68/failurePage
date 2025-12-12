@@ -1,0 +1,53 @@
+#header{
+    #tl{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    .h{
+        background-color: white;
+        border-style: none;
+        font-size: 1rem;
+    }
+    #title{
+        display: inline-block;
+    }
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 1rem);
+}
+#useless{
+    font-size: 4rem;
+}
+.slb{
+    display: inline-block;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius: 4px;
+    font-size: 130%;
+    padding: 1px 1rem;
+    margin-bottom: 2rem;
+}
+.tlb{
+    display: inline-block;
+    background-color: white;
+    color: blue;
+    border-style: none;
+    font-size: 130%;
+    padding: 1px 8px;
+    color: gray;
+}
+.da{
+    background-color: white;
+    border-style: none;
+    border-radius: 100%;
+    margin: 1px 1rem;
+    color: gray;
+}
+textarea{
+    size: 4rem;
+}
